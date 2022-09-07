@@ -1,13 +1,17 @@
-﻿using RestwithASPNETUdemy.Database;
+﻿using AutoMapper;
+using RestwithASPNETUdemy.Database;
 using RestwithASPNETUdemy.Models;
 
 namespace RestwithASPNETUdemy.Services.Implementations
 {
     public class PersonalService : IPersonalService
     {
+        private readonly IMapper _mapper;
         private List<PersonModel> _dbPersonal { get; set; }
-        public PersonalService()
+
+        public PersonalService(IMapper mapper)
         {
+            _mapper = mapper;
             _dbPersonal = new List<PersonModel>();
 
             if (BDPerson.DbPersonal == null)
@@ -36,11 +40,8 @@ namespace RestwithASPNETUdemy.Services.Implementations
                 id = 1;
             }
 
-            var objRequest = new PersonModel { Id = id,
-                                               Firstname = person.Firstname,
-                                               Lastname = person.Lastname,
-                                               Address = person.Address,
-                                               Gender = person.Gender};
+            var objRequest = _mapper.Map<PersonModel>(person);
+            objRequest.Id = id;
 
             _dbPersonal.Add(objRequest);
             return objRequest;

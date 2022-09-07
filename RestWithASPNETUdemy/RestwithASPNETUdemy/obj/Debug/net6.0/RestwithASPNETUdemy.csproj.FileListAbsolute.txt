@@ -25,3 +25,4 @@ E:\Projeto\Udemy\Microservicos\angeloqg-microservices-dotnet6\RestWithASPNETUdem
 E:\Projeto\Udemy\Microservicos\angeloqg-microservices-dotnet6\RestWithASPNETUdemy\RestwithASPNETUdemy\obj\Debug\net6.0\RestwithASPNETUdemy.pdb
 E:\Projeto\Udemy\Microservicos\angeloqg-microservices-dotnet6\RestWithASPNETUdemy\RestwithASPNETUdemy\obj\Debug\net6.0\RestwithASPNETUdemy.genruntimeconfig.cache
 E:\Projeto\Udemy\Microservicos\angeloqg-microservices-dotnet6\RestWithASPNETUdemy\RestwithASPNETUdemy\obj\Debug\net6.0\ref\RestwithASPNETUdemy.dll
+E:\Projeto\Udemy\Microservicos\angeloqg-microservices-dotnet6\RestWithASPNETUdemy\RestwithASPNETUdemy\bin\Debug\net6.0\AutoMapper.dll

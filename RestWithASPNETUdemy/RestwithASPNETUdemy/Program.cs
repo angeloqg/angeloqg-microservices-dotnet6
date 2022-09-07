@@ -1,3 +1,5 @@
+using AutoMapper;
+using RestwithASPNETUdemy.Configuration;
 using RestwithASPNETUdemy.Services.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IPersonalService, PersonalService>();
+
+var mappingConfig = new MapperConfiguration(mc =>
+{
+    mc.AddProfile(new MappingProfile());
+});
+
+IMapper mapper = mappingConfig.CreateMapper();
+builder.Services.AddSingleton(mapper);
 
 var app = builder.Build();
 
