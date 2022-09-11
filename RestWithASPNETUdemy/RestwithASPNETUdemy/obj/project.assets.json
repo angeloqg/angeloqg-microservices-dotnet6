@@ -320,11 +320,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projeto\\Udemy\\Microservicos\\angeloqg-microservices-dotnet6\\RestWithASPNETUdemy\\RestwithASPNETUdemy\\RestwithASPNETUdemy.csproj",
+      "projectUniqueName": "E:\\Angelo\\Cursos_Udemy\\angeloqg-microservices-dotnet6\\RestWithASPNETUdemy\\RestwithASPNETUdemy\\RestwithASPNETUdemy.csproj",
       "projectName": "RestwithASPNETUdemy",
-      "projectPath": "E:\\Projeto\\Udemy\\Microservicos\\angeloqg-microservices-dotnet6\\RestWithASPNETUdemy\\RestwithASPNETUdemy\\RestwithASPNETUdemy.csproj",
+      "projectPath": "E:\\Angelo\\Cursos_Udemy\\angeloqg-microservices-dotnet6\\RestWithASPNETUdemy\\RestwithASPNETUdemy\\RestwithASPNETUdemy.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "E:\\Projeto\\Udemy\\Microservicos\\angeloqg-microservices-dotnet6\\RestWithASPNETUdemy\\RestwithASPNETUdemy\\obj\\",
+      "outputPath": "E:\\Angelo\\Cursos_Udemy\\angeloqg-microservices-dotnet6\\RestWithASPNETUdemy\\RestwithASPNETUdemy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
